@@ -1,0 +1,478 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 60vh;
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar {
+
+  display: inline-block;
+  justify-content: center;
+
+}
+
+.listnavbar {
+  display: inline-block;
+  list-style: none;
+  overflow: auto;
+  margin: center;
+
+
+
+}
+
+.navbar li {
+  font-size: 30px;
+  float: left;
+  padding: 10px 5px;
+  margin: 0px 8px 8px 0px;
+
+
+}
+
+.navbar li a {
+  text-decoration: none;
+  padding: 10px 5px;
+  color: rgb(236, 236, 236);
+}
+
+.navbar li a:hover {
+  
+  color: rgb(170, 162, 162);
+
+}
+
+.headingname {
+  text-align: center;
+  color:#fff;
+  font-size: 60px;
+  font-family: 'Edu SA Beginner', cursive;
+  
+  
+  
+}
+
+.headingname:hover {
+  
+  color: rgb(193, 198, 202);
+  cursor: pointer;
+ }
+
+.socialicons {
+  margin: center;
+  
+}
+
+.socialicons li {
+  display: inline-block;
+  margin: center;
+  padding: 12px;
+
+}
+
+.socialicons a i {
+  font-size: 25px;
+  color: whitesmoke;
+  padding: 5px;
+}
+
+.socialicons a i:hover {
+  color: burlywood;
+
+}
+
+#about {
+  height: auto;
+  width: 100%;
+  background-color: rgb(236, 236, 236);
+}
+
+#aboutheading{
+ font-size: 40px;
+ display: inline;
+ background-color: #fff;
+ opacity: 1;
+ box-shadow: 10px 5px 5px rgb(4, 4, 56);
+ border-radius: 7px;
+ padding: 10px;
+ color: rgb(16, 16, 88);
+ font-family: 'Edu SA Beginner', cursive;
+ 
+
+}
+#aboutheading:hover{
+  color: rgb(4, 4, 56);
+  box-shadow: 20px 10px 10px rgb(196, 196, 250);
+}
+
+#image {
+
+
+  height: 18rem;
+  width: 18rem;
+  margin: auto;
+  margin-top: -90px;
+  border: 3px solid rgb(4, 4, 56);
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px 5px  rgb(207, 207, 252);
+  
+}
+
+#image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+
+}
+
+.para1 {
+  margin: 100px;
+  font-size: 25px;
+  margin-top: 50px;
+  background-color: rgb(54, 146, 211);
+  color: white;
+  padding: 35px;
+  box-shadow: 30px 20px 20px rgb(192, 192, 245);
+  border-radius: 10px;
+  font-family: 'Work Sans', sans-serif;
+  word-spacing: 9px;
+  line-height: 2.5rem;
+}
+.para1:hover{
+  box-shadow:20px 10px 10px rgb(104, 76, 128);
+
+}
+
+
+#skillsection{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:rgb(236, 236, 236);
+  height: 22rem;
+}
+
+
+.section-heading{
+width: auto;
+padding: 20px 10px 10px;
+margin: 10px auto;
+font-weight: 500;
+
+}
+.section-heading span{
+  font-size: 40px;
+  color: rgb(5, 5, 95);
+  display: inline-block;
+  padding-top: 10px;
+  margin-right: 0.5rem;    
+}
+
+  background-color: azure;
+  display: inline;
+} */
+
+.skills-display{
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ 
+}
+.skills{
+  border:1px solid rgb(93, 96, 109);
+  width:130px;
+  height: 27px;
+  background-color:rgb(93, 96, 109) ;
+  border-radius: 13px;
+  margin: 12px;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+
+}
+
+.skills>div{
+  border-radius: 20px 0px 0px 20px;
+}
+#skill1{
+  padding: 2px;
+  color: whitesmoke;
+  width: 85%;
+  background-color: blue;
+  height: inherit;
+  overflow: hidden;
+  border:1px solid blue;
+
+}
+
+#skill2{
+  padding: 2px;
+  color: whitesmoke;
+  width: 80%;
+  background-color: rgb(245, 99, 14);
+  height: inherit;
+  overflow: hidden;
+  border:1px solid rgb(245, 99, 14);
+}
+
+#skill3{
+  padding: 2px;
+  color: whitesmoke;
+  width: 80%;
+  background-color: rgb(199, 9, 199);
+  height: inherit;
+  overflow: hidden;
+  border:1px solid rgb(199, 9, 199);
+}
+
+#skill4{
+  padding: 2px;
+  color: whitesmoke;
+  width: 60%;
+  background-color: rgba(9, 199, 9, 0.541);
+  height: inherit;
+  overflow: hidden;
+  border:1px solid rgba(9, 199, 9, 0.541);
+}
+
+#skill5{
+  padding: 2px;
+  color: whitesmoke;
+  width: 60%;
+  background-color: rgba(247, 35, 35, 0.541);
+  height: inherit;
+  overflow: hidden;
+  border:1px solid rgba(247, 35, 35, 0.541);
+}
+
+#skill6{
+  padding: 2px;
+  color: whitesmoke;
+  width: 60%;
+  background-color: rgba(239, 243, 10, 0.541);
+  height: inherit;
+  overflow: hidden;
+  border:1px solid rgba(239, 243, 10, 0.541);
+}
+
+
+#contact-section{
+  background-color: rgb(236, 236, 236);
+}
+#contact-section:hover{
+  background-color:rgb(236, 236, 236);
+}
+
+
+.contact-design{
+ outline: none;
+ border: 0;
+ border-bottom-style:solid;
+ font-size: 20px;
+ color: rgba(95, 37, 150, 0.712);
+ margin-top: 15px;
+ background-color: rgb(245, 241, 241);
+ margin-left: 10px;
+ padding: 8px;
+ border-radius: 7px;
+
+}
+.submit-button{
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgba(2, 2, 39, 0.37);
+  color: rgb(223, 223, 248);
+  border: 2px solid rgba(2, 2, 39, 0.37);
+  margin-left: 8rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  
+}
+
+#contact-container{
+  background-color: lightgrey;
+  height: 80%;
+  width: 75%;
+  margin: 40px;
+  border-radius: 15px;
+  background-color: rgb(16, 16, 88);
+  margin-left: 12%;
+  color: rgb(223, 223, 248);
+}
+
+#contact-container:hover{
+  box-shadow:20px 10px 10px rgb(191, 191, 252);
+}
+
+
+
+
+#contact-aside{
+  margin-left: 50%;
+ display: inline-block;
+ margin-top: -18rem;
+ margin-bottom: -40%;
+ border-left: 2px  double black;
+ padding-left: 5px;
+ 
+
+}
+.aside-content{
+  cursor: pointer;
+}
+
+
+#education-section{
+  background-color: rgb(236, 236, 236);
+}
+
+#education-div1{
+  border: 5px solid black;
+  border-radius: 8px;
+  margin: 8rem;
+  width: 80%;
+  margin-top: 3rem;
+  background-image: linear-gradient(lightblue,rgb(170, 169, 169));
+  height: 60rem;
+}
+.education-class{
+  height: 15rem;
+  width: 44%;
+  border: 2px solid black;
+  margin: 35PX;
+  border-radius: 5px;
+  background-color: rgb(248, 243, 234);
+  border-left: 8px solid rgb(1, 1, 66);
+ 
+}
+.education-class:hover{
+box-shadow: 5px 5px 5px 3px rgb(186, 186, 245);
+
+
+}
+
+.education-class:nth-child(2n){
+  
+  margin-left: 36rem;
+ 
+}
+
+.div-content{
+  margin-top: 5px;
+  margin-left: 4px;
+}
+.edu-heading{
+  font-size: 3rem;
+  color: rgb(1, 1, 66);
+   font-family: 'Edu TAS Beginner', cursive;
+   font-weight: 800;
+   display: inline;
+   border-radius: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+   padding: 1px;
+  
+}
+
+.edu-heading:hover{
+  text-decoration: underline;
+  text-shadow: 2px 2px 5px rgb(206, 206, 252);
+}
+
+.edu-desc{
+  border: 1px solid black;
+  height: 54.8%;
+  color: white;
+  background-color:rgb(7, 7, 71) ;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  letter-spacing: 1.5px;
+  
+}
+
+.education-divider{
+  position: relative;
+  height: 40rem;
+  width: 0;
+  border: 4px dashed rgb(145, 145, 243);
+  left: 50%;
+  bottom: 47rem;
+  
+}
+
+.education-traveller{
+  position:sticky;
+  transform: rotate(90deg);
+  font-size: 2rem;
+
+
+}
+
+
+
+aside{
+  display: inline-block;
+  height: 16rem;
+  width: 3rem;
+  position: fixed;
+  border: 2px solid black;
+  bottom: 15rem;
+  background-color: rgb(83, 81, 81);
+  color: white;
+  border-radius: 6px;
+  opacity: 0.5;
+  box-shadow: 3px 3px 3px black;
+  
+}
+.aside-icon a{ 
+  font-size: 1.8rem;
+ margin-bottom: 2rem;
+  color: white;
+  font-weight: bolder;
+
+}
+
+
+.aside-icon a:hover{
+  color:rgb(250, 183, 95);
+  box-shadow: 3px 3px 3px black;
+ 
+}
+
+.socialicons {
+  margin: center;
+
+}
+
+.socialicons li {
+  display: inline-block;
+  margin: center;
+  padding: 12px;
+
+}
+
+.socialicons a i {
+  font-size: 25px;
+  color: whitesmoke;
+  padding: 5px;
+}
+
+.socialicons a i:hover {
+  color: burlywood;
+
+}
